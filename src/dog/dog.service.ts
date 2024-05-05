@@ -9,4 +9,8 @@ export class DogService {
   public introduce(): string {
     return 'I am the supporter of Jerry and the prosecutor of Tom!';
   }
+
+  public modifyMyDetail(): string {
+    return 'Modified successfully!';
+  }
 }
